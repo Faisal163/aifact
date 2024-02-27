@@ -352,6 +352,27 @@ textarea {
 }
 /* bg-transparent */
 
+/* upload file */
+.uploadfile{
+  padding: 9px 30px !important;
+}
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background:#3b319e;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: #292175;
+}
+
+/* upload file */
+
 /* floating */
 .floating {  
   animation-name: floating;
