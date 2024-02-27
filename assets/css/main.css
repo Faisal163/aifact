@@ -373,6 +373,13 @@ input[type=file]::file-selector-button:hover {
 
 /* upload file */
 
+/* radio type */
+input[type=radio]{
+  height: 14px !important;
+    width: 3% !important;
+}
+/* radio type */
+
 /* floating */
 .floating {  
   animation-name: floating;
@@ -717,7 +724,7 @@ textarea {
  */
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box;
+  box-sizing:border-box;
   /* 1 */
   padding: 0;
   /* 2 */ }
